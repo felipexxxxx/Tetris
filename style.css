@@ -1,0 +1,105 @@
+.allbox{
+    float:center;
+    height: 540px;
+    width: 900px;
+    
+}
+.gamebox {
+margin-left: 300px;
+float:center;
+height: 480px;
+width: 240px;
+background-color: #ffffff;
+border: 20px outset black;
+position: absolute;
+}
+
+.scorebox{
+margin-left: -10px;
+float: left;
+height: 75px;
+width: 260px;
+background-color: #ffffff;
+border: 20px inset black;
+position: absolute;
+}
+
+.levelbox{
+margin-top: 120px;
+margin-left: -10px;
+float: left;
+height: 75px;
+width: 260px;
+background-color: #ffffff;
+border: 20px inset black;
+position: absolute;
+}
+
+.linelbox{
+margin-top: 240px;
+margin-left: -10px;
+float: left;
+height: 75px;
+width: 260px;
+background-color: #ffffff;
+border: 20px inset black;
+position: absolute;
+}
+
+.piecebox{
+margin-left: 600px;
+float: right;
+height: 320px;
+width: 120px;
+background-color: #ffffff;
+border: 20px inset black;
+position: absolute;
+}
+
+.gameoverbox{
+    float: center;
+    display:inline;
+    margin-left: 575px;
+}
+
+.rankscreen{
+    display:none;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.countscreen{
+    display:none;
+    position: absolute;
+    margin-left: 1175px;
+}
+
+.h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    width: fit-content;
+    
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    width: fit-content;
+}
+
+body {
+    background-image: url('https://wallpapers.com/images/featured/7xpryajznty61ra3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+    </style>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <audio src="Audios/tema.mp3" id="audiotema" autoplay loop></audio> 
+    <audio src="Audios/peca.mp3" id="moverpecamusica" > </audio>
+    <audio src="Audios/linha.mp3" id="linha"></audio>
+    <audio src="Audios/fim.mp3" id="perdeu"></audio>
+    <audio src="Audios/rotacao.mp3" id="z"></audio>
+    <audio src="Audios/level.mp3" id="nivel"></audio>
+    <audio src="Audios/duaslinhas.mp3" id="duaslinhas"></audio>
+    <audio src="Audios/treslinhas.mp3" id="treslinhas"></audio>
+    <audio src="Audios/quatrolinhas.mp3" id="quatrolinhas"></audio>
+    
+    <header>
+        <label>
+            <center>
+                <h1>TETRIS</h1> 
+            </center>
+        </label>
+    </header>
+    <main>
+        <center>
+            <div id ="allbox" class="allbox">
+                
+                <div class="scorebox">
+                    <canvas id="scoreCanvas" width="260" height="75"></canvas>
+                </div>
+
+                <div class="levelbox">
+                    <canvas id="LevelCanvas" width="260" height="75"></canvas>
+                </div>
+
+                <div class="linelbox">
+                    <canvas id="lineCanvas" width="260" height="75"></canvas>
+                </div>
+            
+                <div class="gamebox">
+                    <canvas id="tela" width="240" height="480"></canvas>
+                </div>
+            
+                <div class="piecebox">
+                    <canvas id="previewCanvas" width="120" height="420"></canvas>
+                </div>
+
+            </div>
+
+           
+
+ </center>
+                <div id="RankingScreen" class="rankscreen">
+                    <h1>RANK</h1>
+                    <h3 id = rank1></h3>
+                    <h3 id = rank2></h3>
+                    <h3 id = rank3></h3>
+                    <h3 id = rank4></h3>
+                    <h3 id = rank5></h3>
+                </div>
+
+                <div id="CountScreen" class="countscreen">
+                    <h1>Contagem</h1>
+                    <h3 id = pecaZ></h3>
+                    <h3 id = pecaS></h3>
+                    <h3 id = pecaT></h3>
+                    <h3 id = pecaL></h3>
+                    <h3 id = pecaO></h3>
+                    <h3 id = pecaI></h3>
+                    <h3 id = pecaJ></h3>
+                    
+
+                </div>
+                
+
+            <div id="GameOverScreen" class="gameoverbox" style="display:none">
+                <h2>Game Over</h2>
+                <button style="height:100px;width:280px; border-radius: 25px; margin-left: 50px;" onclick = "endgame()"><h1>Start Game</h1></button>
+                
+            </div>
+
+    <script src="script.js"></script>
+    </main>
+    
+</body>
+</html>
+
+<!-- <form id="username" onsubmit="return false;">
+    <input   style=position:absolute;top:80%;left:5%;width:0%; type="text"  maxlength="3" id="userInput">
+    <input   style=position:absolute;top:50%;left:5%;width:10%; type="submit"    onclick="name()">
+</form> -->
