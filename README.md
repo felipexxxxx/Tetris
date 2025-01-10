@@ -5,11 +5,6 @@ Este projeto é uma implementação do clássico jogo Tetris em HTML5, CSS3 e Ja
 
 ---
 
-## **Demonstração do Projeto**  
-Você pode acessar o projeto clicando [aqui](#).
-
----
-
 ## **Funcionalidades Principais**  
 - 🎨 **Interface de Jogo**: Interface em canvas com exibição de pontuação, nível e peças próximas.  
 - 🎼 **Trilha Sonora e Efeitos Sonoros**: O jogo possui músicas e sons de rotação e queda das peças.  
